@@ -1,8 +1,8 @@
-# blog
+# Andreas Bigger Blog
 
-This is the blog that powers `rauchg.com`, built on
-[next.js](https://zeit.co/blog/next) and
-deployed to the cloud via [now](https://zeit.co/now).
+This blog is forked from [rauchg/blog](https://github.com/rauchg/blog).
+
+This is the blog that powers [andreasbigger.com](https://andreasbigger.com), built on [next.js](https://zeit.co/blog/next) and deployed to the cloud via [now](https://zeit.co/now).
 
 ## How to run
 

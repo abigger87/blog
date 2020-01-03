@@ -32,11 +32,11 @@ export default ({
         <span className="meta">
           <a
             className="author"
-            href="https://twitter.com/rauchg"
+            href="https://twitter.com/abigger87"
             target="_blank"
           >
-            <img src="https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_200x200.jpg" />
-            rauchg
+            <img src="https://pbs.twimg.com/profile_images/1130090561569001472/6LGqtLrK_400x400.jpg" />
+            abigger87
           </a>
 
           {isMounted ? (
@@ -55,16 +55,16 @@ export default ({
                 </span>
               </a>
             ) : (
-              <span className={`date ${isMounted ? "" : "loading"}`}>
-                <span className="sep" />
-                <span className="short">
-                  <TimeAgo date={date} />
+                <span className={`date ${isMounted ? "" : "loading"}`}>
+                  <span className="sep" />
+                  <span className="short">
+                    <TimeAgo date={date} />
+                  </span>
+                  <span className="full">
+                    <TimeAgo date={date} long={true} />
+                  </span>
                 </span>
-                <span className="full">
-                  <TimeAgo date={date} long={true} />
-                </span>
-              </span>
-            )
+              )
           ) : null}
         </span>
 
@@ -79,10 +79,10 @@ export default ({
             </a>
           </span>
         ) : (
-          <span className={`views ${views == null ? "loading" : ""}`}>
-            <em>{commaNumber(views)}</em> views
+            <span className={`views ${views == null ? "loading" : ""}`}>
+              <em>{commaNumber(views)}</em> views
           </span>
-        )}
+          )}
       </nav>
 
       <style jsx>{`

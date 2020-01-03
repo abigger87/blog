@@ -15,7 +15,7 @@ const Logo = () => (
       />
     </svg>
 
-    rauchg.com
+    AB
 
     <style jsx>{`
       span {

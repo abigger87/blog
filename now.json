@@ -1,6 +1,6 @@
 {
   "env": {
-    "FIREBASE_PROJECT_ID": "rauchg-blog",
+    "FIREBASE_PROJECT_ID": "blog-88f73",
     "FIREBASE_PRIVATE_KEY": "@blog-firebase-private-key",
     "FIREBASE_CLIENT_EMAIL": "@blog-firebase-client-email"
   },

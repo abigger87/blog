@@ -10,10 +10,10 @@ export default () => (
   <div>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link href="/atom" type="application/atom+xml" rel="alternate" title="Guillermo Rauch" />
+      <link href="/atom" type="application/atom+xml" rel="alternate" title="Andreas Bigger" />
     </Head>
 
-    { /* global styles */ }
+    { /* global styles */}
     <style jsx global>{`
       * {
         margin: 0;

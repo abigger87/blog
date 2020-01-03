@@ -15,126 +15,49 @@ import Head from "next/head";
 
 export default withViews(({ views }) => (
   <Post>
-    <Header title="2019 in Review" date="January 2, 2020" views={views} />
+    <Header title="iRobot Thesis" date="December 28, 2019" views={views} />
     <Head>
-      <meta property="og:title" content="2019 in Review" />
-      <meta property="og:site_name" content="Guillermo Rauch's blog" />
+      <meta property="og:title" content="iRobot Thesis" />
+      <meta property="og:site_name" content="Andreas Bigger's blog" />
       <meta
         property="og:description"
-        content="The evolution of our company, our open-source work, interesting news and lessons in product design and engineering in 2019."
+        content="A fundamentals perspective of iRobot, its valuation, and its future potential as a consumer robotics company"
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@rauchg" />
-      <meta
+      <meta name="twitter:site" content="@abigger87" />
+      {/*<meta
         property="og:image"
         content="https://user-images.githubusercontent.com/13041/71661903-92614e80-2d47-11ea-9e97-ceee5ad8c720.png"
-      />
+      />*/}
     </Head>
 
     <P>
       <em>
-        This post is a quick summary of the evolution of{" "}
-        <a href="https://zeit.co" target="_blank">
-          our company
+        This post is a fundamental analysis of {" "}
+        <a href="https://irobot.com" target="_blank">
+          iRobot
         </a>
-        , our <a href="https://nextjs.org">open-source work</a>, interesting
-        news and lessons in product design and engineering throughout 2019.
       </em>
     </P>
 
-    <H2 id="static-is-the-new-dynamic">Static is the new Dynamic</H2>
+    <Quote>
+      NASDAQ:{" "}<a href="https://finance.yahoo.com/quote/IRBT/">IRBT</a><br />
+      52.10 USD<br />
+      $1.49 Billion<br />
+      16.54 P/E<br />
+      4.22 Price to Book Ratio<br />
+      2.13 Price to Sales Ratio<br />
+      28.06 Million Shares Outstanding<br />
+      52-week high: $132.88<br />
+      52-week low: $42.41
+    </Quote>
     <P>
-      Throughout 2019 we have continued to see the growth of the{" "}
-      <em>JAMstack</em>. The idea is quite simple: Any website or app you{" "}
-      <a href="https://nextjs.org">build</a> and{" "}
-      <a href="https://zeit.co">deploy</a> will use the stack of client-side{" "}
-      <i>J</i>
-      avaScript, <i>A</i>PIs, and <i>M</i>arkup.
+      iRobot is an American consumer robotics company, designing and building robots for inside and outside of the home. These consist of vacuum cleaners (Roomba), floor moppers (Braava), lawn mowers (Terra), and programmable robots (Root).
     </P>
     <P>
-      By now, client-side JavaScript (like React and Vue) and APIs (like REST
-      and GraphQL) are quite mainstream, but my favorite part is the assumption
-      that your markup will be <b>static</b>.
+      iRobot was founded in 1990 by three members of MIT’s Artificial Intelligence Lab, which works on robots for space exploration and military defense. In 2002, the flagship Roomba was unveiled, selling more than 8 million home robots by 2012. In 2016, iRobot sold its military robotics business to Arlington Capital Partners, to focus on the consumer market.
     </P>
-    <P>First: Why Static?</P>
-    <UL>
-      <LI>
-        Static is <b>globally fast</b>. When you deploy, we can <em>hoist</em>{" "}
-        all your static assets to a global CDN network. By removing the server
-        from the equation, we can also maximize availability by reducing and
-        even altogether eliminating cache misses.
-      </LI>
-
-      <LI>
-        Static is <b>consistently fast</b>. It gives you "O(1){" "}
-        <a
-          href="https://en.wikipedia.org/wiki/Time_to_first_byte"
-          target="_blank"
-        >
-          TTFB
-        </a>
-        ", which is a fancy way of saying you get stable and predictable latency
-        to the first byte of the screen. Always, because no code, servers,
-        sockets, or databases are involved.
-      </LI>
-
-      <LI>
-        Static is <b>always online</b>. This should{" "}
-        <a
-          href="https://twitter.com/rauchg/status/1210294503216578560"
-          target="_blank"
-        >
-          not be surprising
-        </a>
-        , but servers frequently go down and{" "}
-        <a
-          href="https://kccncna19.sched.com/event/Uads/the-gotchas-of-zero-downtime-traffic-w-kubernetes-leigh-capili-weaveworks"
-          target="_blank"
-        >
-          involve complex rollout schemes
-        </a>
-        <Ref id="1" />, while static files are trivially cacheable and simple to
-        serve. The odds of you getting paged during the holidays because a
-        "static asset can't be served from a CDN" are basically zero.
-      </LI>
-    </UL>
-    <P>
-      Second: Really, Static? I have <em>dynamic</em> needs.
-    </P>
-    <P>
-      Servers are not going away, but they are <em>moving around and hiding</em>
-      .
-    </P>
-    <UL>
-      <LI>
-        <b>Static Site Generation (SSG)</b> can be thought of moving around the
-        servers and taking them away from the hot path. Instead of putting a
-        server in between the user's request and the response, we compute the
-        response ahead of time.
-        <br />
-        <br />
-        This subtle shift pays back handsomely. One, anything that could go
-        wrong, goes wrong at build time, maximizing <b>availability</b>. Two, we
-        compute once and re-use, minimizing <b>database or API load</b>. Three,
-        the resulting static HTML is <b>fast</b>.
-      </LI>
-
-      <LI>
-        <b>
-          Client-side <em>J</em>S and <em>A</em>PIs
-        </b>{" "}
-        that get executed later, once the static markup and code is downloaded
-        and executed, allow for effectively infinite dynamism.
-        <br />
-        <br />
-        Pre-computing all pages is not always possible
-        <Ref id="2" />, nor desirable. For example, when dealing with data that
-        is <em>not</em> shared between all users and we wouldn't want to cache
-        at the edge
-        <Ref id="3" />.
-      </LI>
-    </UL>
-    <H2 id="next-the-next-frontier">Next.js, the next frontier</H2>
+    <H2 id="product-line">Product Line</H2>
     <P>
       Next.js has continued to grow in adoption and now powers the likes of
       Hulu, Tencent News, Twitch, AT&amp;T, Auth0 and the{" "}

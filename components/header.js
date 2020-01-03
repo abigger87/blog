@@ -22,15 +22,15 @@ export default ({ active = null }) => (
           </Link>
         </li>
         <li className={active === ABOUT ? "active" : ""}>
-          <a href="mailto:rauchg@gmail.com">Email</a>
+          <a href="mailto:abigger87@gmail.com">Email</a>
         </li>
         <li className={active === TWITTER ? "active" : ""}>
-          <a href="https://twitter.com/rauchg" target="_blank">
+          <a href="https://twitter.com/abigger87" target="_blank">
             Twitter
           </a>
         </li>
         <li className={active === SOURCE ? "active" : ""}>
-          <a href="https://github.com/rauchg/blog" target="_blank">
+          <a href="https://github.com/abigger87/blog" target="_blank">
             Source
           </a>
         </li>

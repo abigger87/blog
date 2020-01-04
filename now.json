@@ -19,9 +19,16 @@
       "status": 302
     },
     {
-      "src": "/slackin\\/?.*",
+      "src": "/birds\\/?.*",
       "headers": {
-        "location": "https://github.com/rauchg/slackin"
+        "location": "https://birdsnewtab.netlify.com"
+      },
+      "status": 302
+    },
+    {
+      "src": "/particles\\/?.*",
+      "headers": {
+        "location": "https://particlesnewtab.netlify.com"
       },
       "status": 302
     }

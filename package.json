@@ -1,6 +1,6 @@
 {
-  "name": "rauchg-blog",
-  "description": "rauchg.com (blog)",
+  "name": "andreas-bigger-blog",
+  "description": "Andreas Bigger's personal blog",
   "dependencies": {
     "comma-number": "^2.0.0",
     "firebase": "^7.6.1",

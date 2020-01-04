@@ -33,6 +33,7 @@ export default ({
           <a
             className="author"
             href="https://twitter.com/abigger87"
+            rel="noopener"
             target="_blank"
           >
             <img src="https://pbs.twimg.com/profile_images/1130090561569001472/6LGqtLrK_400x400.jpg" />
@@ -43,6 +44,7 @@ export default ({
             tweetUrl ? (
               <a
                 className={`date ${isMounted ? "" : "loading"}`}
+                rel="noopener"
                 target="_blank"
                 href={tweetUrl}
               >

@@ -34,7 +34,7 @@ export default withViews(({ views }) => (
     <P>
       <em>
         This post is a fundamental analysis of {" "}
-        <a href="https://irobot.com" target="_blank">
+        <a href="https://irobot.com" rel="noopener" target="_blank">
           iRobot
         </a>
       </em>

@@ -25,12 +25,12 @@ export default ({ active = null }) => (
           <a href="mailto:abigger87@gmail.com">Email</a>
         </li>
         <li className={active === TWITTER ? "active" : ""}>
-          <a href="https://twitter.com/abigger87" target="_blank">
+          <a href="https://twitter.com/abigger87" rel="noopener" target="_blank">
             Twitter
           </a>
         </li>
         <li className={active === SOURCE ? "active" : ""}>
-          <a href="https://github.com/abigger87/blog" target="_blank">
+          <a href="https://github.com/abigger87/blog" rel="noopener" target="_blank">
             Source
           </a>
         </li>

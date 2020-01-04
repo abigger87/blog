@@ -30,17 +30,17 @@ const Figure = ({ desc, href, children, wide, height, width }) => {
         </div>
       </div>
     ) : (
-      children
-    );
+        children
+      );
   return (
     <div className={wide && "wide"}>
       {href ? (
-        <a href={href} target="_blank">
+        <a href={href} rel="noopener" target="_blank">
           {content}
         </a>
       ) : (
-        content
-      )}
+          content
+        )}
       {desc && <p>{desc}</p>}
       <style jsx>{`
         div {

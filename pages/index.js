@@ -19,10 +19,12 @@ const Home = ({ posts, date }) => (
     <ul>
       {posts.map(post => (
         <li key={post.id}>
-          <span>{post.date}</span>
-          <Link href={post.url}>
-            <a>{post.title}</a>
-          </Link>
+          <div style={{ marginLeft: "10vw", width: "fit-content" }}>
+            <span>{post.date}</span>
+            <Link href={post.url}>
+              <a>{post.title}</a>
+            </Link>
+          </div>
         </li>
       ))}
     </ul>

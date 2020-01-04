@@ -41,7 +41,16 @@ export default ({ active = null }) => (
       nav {
         padding: 10px 0 10px 5px;
       }
-
+      
+      ul, ul li {    
+        -moz-border-radius-topleft: 7px;
+        -moz-border-radius-topright: 7px;
+        -webkit-border-top-left-radius: 7px;
+        -webkit-border-top-right-radius: 7px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+      }
+      
       ul {
         display: flex;
       }
@@ -53,6 +62,7 @@ export default ({ active = null }) => (
         transition: 150ms background-color ease;
         padding: 5px;
       }
+
 
       ul li a {
         padding: 5px 10px;

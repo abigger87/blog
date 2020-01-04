@@ -27,7 +27,7 @@ export default withViews(({ views }) => (
             <meta name="twitter:site" content="@abigger87" />
             <meta
                 property="og:image"
-                content="https://user-images.githubusercontent.com/13041/71661903-92614e80-2d47-11ea-9e97-ceee5ad8c720.png"
+                content="https://raw.githubusercontent.com/abigger87/blog/master/public/images/fisher/fisher.png"
             />
         </Head>
 

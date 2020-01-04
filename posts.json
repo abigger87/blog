@@ -6,34 +6,24 @@
       "title": "iRobot Thesis"
     },
     {
-      "id": "its-hard-to-forego-efficiency",
-      "date": "March 28, 2017",
-      "title": "It's Hard to Forego Efficiency"
+      "id": "fisher-fundamentals",
+      "date": "December 24, 2019",
+      "title": "Fisher's Fundamentals"
     },
     {
-      "id": "2016-in-review",
-      "date": "January 6, 2017",
-      "title": "2016 in Review"
+      "id": "venture-capital",
+      "date": "June 17, 2019",
+      "title": "Venture Capital"
     },
     {
-      "id": "addressable-errors",
-      "date": "February 4, 2016",
-      "title": "Addressable Errors"
+      "id": "blockchain",
+      "date": "June 11, 2019",
+      "title": "The Blockchain"
     },
     {
-      "id": "pure-ui",
-      "date": "July 13, 2015",
-      "title": "Pure UI"
-    },
-    {
-      "id": "ecmascript-6",
-      "date": "February 22, 2015",
-      "title": "ECMAScript 6"
-    },
-    {
-      "id": "7-principles-of-rich-web-applications",
-      "date": "November 4, 2014",
-      "title": "7 Principles of Rich Web Applications"
+      "id": "tesla-thesis",
+      "date": "June 2, 2019",
+      "title": "Tesla Thesis"
     }
   ]
 }

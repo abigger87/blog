@@ -27,7 +27,7 @@ export default withViews(({ views }) => (
             <meta name="twitter:site" content="@abigger87" />
             <meta
                 property="og:image"
-                content="https://user-images.githubusercontent.com/13041/71661903-92614e80-2d47-11ea-9e97-ceee5ad8c720.png"
+                content="https://raw.githubusercontent.com/abigger87/blog/master/public/images/tesla/teslaBlog1.jpg"
             />
         </Head>
 
@@ -66,9 +66,9 @@ export default withViews(({ views }) => (
             Here is a picture of the previous four quarters:
         </P>
         <Figure
-            desc="IRBT Market Share"
+            desc="Tesla Cash Flow"
         >
-            <Image src="https://raw.githubusercontent.com/abigger87/ab3/master/public/images/blog/iRobot/market.png" />
+            <Image src="https://raw.githubusercontent.com/abigger87/blog/master/public/images/tesla/cashflow.png" />
         </Figure>
         <P>
             In the first quarter of 2019, Tesla reported losses per share on an adjusted basis of $2.90, and the revenue reached $4.54 billion. Tesla also delivered 63,000 cars during the quarter, which fell below the analyst's consensus setimate of 76,000 cars.
@@ -107,9 +107,9 @@ export default withViews(({ views }) => (
             Tesla plans to expand its network of supercharger stations to more than 21,000, covering most of the United States. This network expanded at a rate of 40%, which is impressive as Tesla battles production issues and its vehicles on the road increased by 83 percent.
             </P>
         <Figure
-            desc="Tesla Cash Flow"
+            desc="Tesla Superchargers"
         >
-            <Image src="/images/blog/tesla/superchargers.jpg" />
+            <Image src="https://raw.githubusercontent.com/abigger87/blog/master/public/images/tesla/superchargers.jpg" />
         </Figure>
         <P>
             Elon Musk also tweeted that the goal of Tesla is to double its superchargers by the end of 2019.

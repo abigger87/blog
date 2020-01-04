@@ -64,32 +64,36 @@ export default withViews(({ views }) => (
             <LI>
                 Does the company have a worthwhile profit margin?
             </LI>
-
-            *3. *
-
-            *4. *
-
-            *5. Does the company have a worthwhile profit margin?*
-
-            *6. What is the company doing to maintain or improve profit margins?*
-
-            *7. Does the company have outstanding labor and personnel relations?*
-
-            *8. Does the company have outstanding executive relations?*
-
-            *9. Does the company have depth to its management?*
-
-            *10. How good are the company’s cost analysis and accounting controls?*
-
-            *11. Are there other aspects of the business, somewhat peculiar to the industry involved, which will give the investor important clues as to how outstanding the company may be in relation to its competition?*
-
-            *12. Does the company have a short-range or long-range outlook in regard to profits?*
-
-            *13. In the foreseeable future will the growth of the company require sufficient equity financing so that the larger number of shares then outstanding will largely cancel the existing stockholders’ benefit from this anticipated growth?*
-
-            *14. Does the management talk freely to investors about its affairs when things are going well but “clam up” when troubles and disappointments occur?*
-
-            *15. Does the company have a management of unquestionable integrity?*
+            <LI>
+                What is the company doing to maintain or improve profit margins?
+            </LI>
+            <LI>
+                Does the company have outstanding labor and personnel relations?
+            </LI>
+            <LI>
+                Does the company have outstanding executive relations?
+            </LI>
+            <LI>
+                Does the company have depth to its management?
+            </LI>
+            <LI>
+                How good are the company’s cost analysis and accounting controls?
+            </LI>
+            <LI>
+                Are there other aspects of the business, somewhat peculiar to the industry involved, which will give the investor important clues as to how outstanding the company may be in relation to its competition?
+            </LI>
+            <LI>
+                Does the company have a short-range or long-range outlook in regard to profits?
+            </LI>
+            <LI>
+                In the foreseeable future will the growth of the company require sufficient equity financing so that the larger number of shares then outstanding will largely cancel the existing stockholders’ benefit from this anticipated growth?
+            </LI>
+            <LI>
+                Does the management talk freely to investors about its affairs when things are going well but “clam up” when troubles and disappointments occur?
+            </LI>
+            <LI>
+                Does the company have a management of unquestionable integrity?
+            </LI>
         </UL>
         <style jsx>{`
       table {

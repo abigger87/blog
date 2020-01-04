@@ -25,10 +25,10 @@ export default withViews(({ views }) => (
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@abigger87" />
-      {/*<meta
+      <meta
         property="og:image"
         content="https://user-images.githubusercontent.com/13041/71661903-92614e80-2d47-11ea-9e97-ceee5ad8c720.png"
-      />*/}
+      />
     </Head>
 
     <P>

@@ -27,7 +27,7 @@ export default withViews(({ views }) => (
             <meta name="twitter:site" content="@abigger87" />
             <meta
                 property="og:image"
-                content="https://user-images.githubusercontent.com/13041/71661903-92614e80-2d47-11ea-9e97-ceee5ad8c720.png"
+                content="https://raw.githubusercontent.com/abigger87/blog/master/public/images/venturecapital/vc.png"
             />
         </Head>
 
@@ -93,29 +93,6 @@ export default withViews(({ views }) => (
         <P>
             Thank you for reading my blog post on Venture Capital! Please share if you find interesting and reach me on twitter @abigger87
         </P>
-        <style jsx>{`
-      table {
-        border-collapse: collapse;
-      }
-
-      table td,
-      table th {
-        border: 1px solid #ededed;
-        padding: 10px;
-        font-size: 14px;
-      }
-
-      table td:first-child {
-        text-align: center;
-        font-weight: bold;
-      }
-
-      table th {
-        text-align: left;
-        font-size: 12px;
-        text-transform: uppercase;
-      }
-    `}</style>
         <FootNotes>
             <Note id="1">
                 Much of the information in this article can and should be attributed to the a16z youtube channel and their <a href="https://youtu.be/VIOhMFw5DXY">video</a>

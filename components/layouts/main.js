@@ -12,7 +12,7 @@ export default ({ children, headerActive }) => {
     <main>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="Description" content="Andreas Bigger's Blog"></meta>
+        <meta name="Description" content="Andreas Bigger"></meta>
         <link rel="icon" href="https://raw.githubusercontent.com/abigger87/blog/master/public/images/favicon/favicon.png"></link>
         <title>Andreas Bigger's Blog</title>
       </Head>

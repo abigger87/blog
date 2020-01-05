@@ -20,7 +20,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v1
       - name: ZEIT Now Deployment
-        uses: amondnet/now-deployment@v1
+        uses: actions/zeit-now@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           zeit-token: ${{ secrets.ZEIT_TOKEN }}

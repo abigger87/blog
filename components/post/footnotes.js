@@ -3,7 +3,7 @@ import P from "./paragraph";
 export const FootNotes = ({ children }) => (
   <div>
     {children}
-    <style jsx>{`
+    <style amp-custom jsx>{`
       div {
         font-size: 16px;
       }
@@ -24,7 +24,7 @@ export const FootNotes = ({ children }) => (
 export const Ref = ({ id }) => (
   <a href={`#f${id}`} id={`s${id}`}>
     [{id}]
-    <style jsx>{`
+    <style amp-custom jsx>{`
       a {
         top: -5px;
         font-size: 10px;
@@ -42,7 +42,7 @@ export const Note = ({ id, children }) => (
       ^
     </a>{" "}
     {children}
-    <style jsx>{`
+    <style amp-custom jsx>{`
       a {
         text-decoration: none;
       }

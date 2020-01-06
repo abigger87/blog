@@ -10,13 +10,13 @@ export default () => (
   <div>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link href="/atom" type="application/atom+xml" rel="alternate" title="Andreas Bigger" />
+      <link rel="canonical" href="/atom" type="application/atom+xml" rel="alternate" title="Andreas Bigger" />
       <link rel="icon" href="https://pbs.twimg.com/profile_images/1130090561569001472/6LGqtLrK_400x400.jpg"></link>
       <title>Andreas Bigger's Blog</title>
     </Head>
 
     { /* global styles */}
-    <style jsx global>{`
+    <style amp-custom="true" jsx global>{`
       * {
         margin: 0;
         box-sizing: border-box;

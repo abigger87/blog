@@ -6,7 +6,7 @@ export default ({ children, caption = null }) => (
 
     {caption != null ? <p>{caption}</p> : null}
 
-    <style jsx>{`
+    <style amp-custom jsx>{`
       pre {
         line-height: 24px;
         background: #000;

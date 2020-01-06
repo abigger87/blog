@@ -17,7 +17,7 @@ const Logo = () => (
 
     AB
 
-    <style jsx>{`
+    <style amp-custom="true" jsx>{`
       span {
         font-weight: bold;
         font-size: 18px;

@@ -1,7 +1,7 @@
 export default () => (
   <span>
     ▲ZEIT
-    <style jsx>{`
+    <style amp-custom="true" jsx>{`
       span {
         font-weight: bold;
         font-family: Helvetica Neue, Helvetica, Arial,

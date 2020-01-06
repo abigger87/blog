@@ -1,7 +1,7 @@
 export default ({ children }) => (
   <p>
     {children}
-    <style jsx>{`
+    <style amp-custom jsx>{`
       p {
         margin: 20px 0;
         line-height: 1.5;

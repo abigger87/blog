@@ -42,7 +42,7 @@ const Figure = ({ desc, href, children, wide, height, width }) => {
           content
         )}
       {desc && <p>{desc}</p>}
-      <style jsx>{`
+      <style amp-custom jsx>{`
         div {
           text-align: center;
         }
@@ -81,7 +81,7 @@ const Image = ({ style, width, src }) => (
       width={width}
       src={src}
     />
-    <style jsx>{`
+    <style amp-custom jsx>{`
       div {
         margin: auto;
       }
@@ -95,7 +95,7 @@ const Image = ({ style, width, src }) => (
 const Video = ({ src }) => (
   <div>
     <video autoPlay loop src={src} />
-    <style jsx>{`
+    <style amp-custom jsx>{`
       video {
         max-width: 100%;
       }

@@ -95,7 +95,7 @@ export default withViews(({ views }) => (
                 Does the company have a management of unquestionable integrity?
             </LI>
         </UL>
-        <style jsx>{`
+        <style amp-custom="true" jsx>{`
       table {
         border-collapse: collapse;
       }

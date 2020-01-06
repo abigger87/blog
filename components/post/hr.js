@@ -1,6 +1,6 @@
 export default () => (
   <div>
-    <style jsx>{`
+    <style amp-custom jsx>{`
       div {
         border-style: none;
         margin-top: 30px;

@@ -14,13 +14,13 @@ export default class MyDocument extends Document {
 
     render() {
         return (
-            <Html lang={this.props.locale}>
+            <html amp="true" lang={this.props.locale}>
                 <Head />
                 <body>
                     <Main />
                     <NextScript />
                 </body>
-            </Html>
+            </html>
         )
     }
 }

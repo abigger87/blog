@@ -37,7 +37,7 @@ export default ({ active = null }) => (
       </ul>
     </nav>
 
-    <style jsx>{`
+    <style amp-custom="true" jsx>{`
       nav {
         padding: 10px 0 10px 5px;
       }

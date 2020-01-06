@@ -8,7 +8,7 @@ export default function Tweet({ id, caption }) {
       </div>
       {caption != null ? <p>{caption}</p> : null}
 
-      <style jsx>{`
+      <style amp-custom jsx>{`
         main {
           margin: 30px 0;
         }

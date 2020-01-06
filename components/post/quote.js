@@ -5,7 +5,7 @@ export default ({ by, children }) => (
       <br />
       {by ? <>– {by}</> : null}
     </p>
-    <style jsx>{`
+    <style amp-custom jsx>{`
       blockquote {
         margin: 30px 0;
         color: #666;

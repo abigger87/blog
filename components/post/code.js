@@ -1,7 +1,7 @@
 export default ({ children }) => (
   <code>
     {children}
-    <style jsx>{`
+    <style amp-custom jsx>{`
       code {
         color: #be00ff;
         font-family: Menlo, monospace;

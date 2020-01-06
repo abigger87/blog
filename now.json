@@ -31,6 +31,13 @@
         "location": "https://particlesnewtab.netlify.com"
       },
       "status": 302
+    },
+    {
+      "src": "/index.*",
+      "headers": {
+        "location": "/"
+      },
+      "status": 302
     }
   ]
 }

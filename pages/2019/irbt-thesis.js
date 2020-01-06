@@ -171,7 +171,7 @@ export default withViews(({ views }) => (
       TLDR<br />
       iRobot presents good value at its current price of $52.43, but a great value investment would be seen at levels around $37 per share. At $37 per share, the Price to Book ratio would be below 3 and P/E below 12.
     </P>
-    <style jsx>{`
+    <style amp-custom="true" jsx>{`
       table {
         border-collapse: collapse;
       }

@@ -3,7 +3,7 @@ import YouTube from 'react-youtube'
 export default (props) => (
   <div>
     <YouTube {...withDefault(props)} />
-    <style jsx>{`
+    <style amp-custom jsx>{`
       div {
         margin: 15px 0;
       }

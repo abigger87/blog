@@ -188,7 +188,7 @@ export default withViews(({ views }) => (
         <P>
             Thank you for reading my blog on Tesla! I hope to have provided a strong analysis that is found to be useful and be sure to check me out on twitter @abigger87.
         </P>
-        <style jsx>{`
+        <style amp-custom="true" jsx>{`
       table {
         border-collapse: collapse;
       }

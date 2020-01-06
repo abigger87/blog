@@ -87,7 +87,7 @@ export default ({
           )}
       </nav>
 
-      <style jsx>{`
+      <style amp-custom jsx>{`
         nav {
           display: flex;
           justify-content: space-between;

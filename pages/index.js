@@ -29,7 +29,7 @@ const Home = ({ posts, date }) => (
       ))}
     </ul>
 
-    <style jsx>{`
+    <style amp-custom="true" jsx>{`
       ul li {
         padding: 10px 15px;
       }

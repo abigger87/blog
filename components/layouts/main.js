@@ -19,16 +19,16 @@ export default ({ children, headerActive }) => {
         <title>Andreas Bigger's Blog</title>
       </Head>
 
-      <style jsx global>
+      <style amp-custom jsx global>
         {reset}
       </style>
-      <style jsx global>
+      <style amp-custom jsx global>
         {colors}
       </style>
-      <style jsx global>
+      <style amp-custom jsx global>
         {nprogress}
       </style>
-      <style jsx global>
+      <style amp-custom jsx global>
         {typography}
       </style>
 
@@ -36,7 +36,7 @@ export default ({ children, headerActive }) => {
 
       {children}
 
-      <style jsx>{`
+      <style amp-custom jsx>{`
         main {
           padding: 10px;
         }

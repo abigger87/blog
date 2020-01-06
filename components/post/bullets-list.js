@@ -1,7 +1,7 @@
 export default ({ children }) => (
   <ul>
     {children}
-    <style jsx>{`
+    <style amp-custom jsx>{`
       ul {
         margin: 0 0 20px 0;
         padding: 0;
@@ -14,7 +14,7 @@ export default ({ children }) => (
 const LI = ({ children }) => (
   <li>
     {children}
-    <style jsx>{`
+    <style amp-custom jsx>{`
       li {
         margin-bottom: 15px;
         padding-left: 20px;

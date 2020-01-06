@@ -11,7 +11,7 @@ const H = ({ id, level = 2, fontSize = 20, children }) => (
       children
     )}
 
-    <style jsx>{`
+    <style amp-custom jsx>{`
       div {
         margin: 50px 0 25px;
         font-family: Helvetica Neue, Helvetica, Arial, "Lucida Grande",

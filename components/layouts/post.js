@@ -6,7 +6,7 @@ export default ({ children }) => (
       <article>{children}</article>
     </main>
 
-    <style jsx>{`
+    <style amp-custom amp-custom="true" jsx>{`
       main {
         padding: 15px;
         max-width: 680px;

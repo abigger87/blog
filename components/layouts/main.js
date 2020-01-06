@@ -14,7 +14,8 @@ export default ({ children, headerActive }) => {
     <main>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="Description" content="Andreas Bigger"></meta>
+        <meta name="description" content="Andreas Bigger's personal website and blog." />
+        <meta name="keywords" content="Andreas,Bigger,Computer,Science,CS,Investor,Entrepreneur,USC,Viterbi,CSH,Twitter,Tesla,Irobot" />
         <link rel="icon" href="https://raw.githubusercontent.com/abigger87/blog/master/public/images/favicon/favicon.png"></link>
         <title>Andreas Bigger's Blog</title>
       </Head>

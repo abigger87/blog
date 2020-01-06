@@ -7,6 +7,8 @@ import Header from "../header";
 
 import "nprogress";
 
+export const config = { amp: true };
+
 export default ({ children, headerActive }) => {
   return (
     <main>
